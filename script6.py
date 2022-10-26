@@ -25,14 +25,10 @@ img = cv2.imread('images/robot2.jpg')
 
 ####################################
 ######### Gaussian Blur ############
-kernel_size = 5
-blur = cv2.GaussianBlur(img,(kernel_size,kernel_size),0)
 
 
 ####################################
 ########## Median Blur###############
-kernel_size = 5
-median = cv2.medianBlur(img,kernel_size)
 
 ###########################
 ### Display the results ###
@@ -40,10 +36,10 @@ median = cv2.medianBlur(img,kernel_size)
 cv2.imshow('Main', img)
 cv2.waitKey(0)
 
-cv2.imshow('Gaussian', blur)
+cv2.imshow('Gaussian', )
 cv2.waitKey(0)
 
-cv2.imshow('Median', median)
+cv2.imshow('Median', )
 cv2.waitKey(0)
 
 ########################
