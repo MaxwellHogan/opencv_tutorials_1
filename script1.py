@@ -12,12 +12,10 @@ import cv2
 
 #######################
 ### Read an Image #####
-img = cv2.imread("images/robot1.jpg")
 
 
 #########################
 ### Display the image ###
-cv2.imshow('img', img)
 
 ###########################
 ##### Saving Image ########
