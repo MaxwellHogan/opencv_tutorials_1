@@ -1,10 +1,10 @@
 '''
 This is where stuff will start to get tricky! We are going to do some operations between images.
-These operations are not themselves challenging. However, we as you learned in class,
+These operations are not themselves challenging. However, as you learned in class,
 each pixel in an image can be a value between 0 and 255. Hence, there is risk that 
 by summing or subtracting we may create a new image outside this range. 
 
-You will see in this notepad I have filled in some blanks for you to get you started.
+You will see in this notepad I have provided some code to get you started.
 
 The tasks are outlined below.
 

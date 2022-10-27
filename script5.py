@@ -2,15 +2,15 @@
 In this script we are going to apply two very common morphological 
 operators: Erosion and Dilation. Both operations involve convolving an
 image with some kernal, so the first task is to define the kernel that
-will be scanned  across an image. It is a good idea to define use a 
+will be scanned  across an image. It is a good idea to use a 
 variable to set the size so that it can be adjusted later. The remainder 
 tasks are outlined below. 
 
-In erosion, the kernel is scanned over the image, we compute the maximal
+In erosion, the kernel is scanned over the image and we compute the maximal
 pixel value overlapped by the kernel and replace the pixel in the centre
 of the kernel with that maximal value. 
 
-In dilation, the kernel is scanned over the image, we compute the minimal
+In dilation, the kernel is scanned over the image and we compute the minimal
 pixel value overlapped by the kernel and replace the pixel in the centre
 of the kernel with that minimal value. 
 

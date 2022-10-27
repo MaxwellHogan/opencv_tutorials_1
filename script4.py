@@ -1,11 +1,14 @@
 '''
 This script will be more easy going than the last one. 
-We will be resizing and image. I have filled in some code below,
+We will be resizing an image. I have filled in some code below,
 it is up to you to fill in the gaps. The tasks are as followed:
     - get and store the dimensions of the image.
     - compute the new dimensions if we are going to scale the image by 1/2
     - use these new dimensions to resize the image.
     - display the new image.
+
+hint: https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d
+
 '''
 
 ### Import OpenCV  #####
@@ -28,7 +31,6 @@ h = int(h
 
 ########################
 ##### Resize ###########
-## hint: https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d
 
 
 #########################
