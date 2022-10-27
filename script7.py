@@ -15,6 +15,10 @@
 #  mahmoud.abdulsalam@city.ac.uk                                      #
 #######################################################################
 
+## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## make sure you have installing scikit-image using the below commans in terminal
+## pip3 install scikit-image
+
 
 ### Import OpenCV & numpy #####
 
